@@ -1,0 +1,69 @@
+/* Set the font for the body and headings */
+body, h1, h2, h3, h4, h5, h6 {
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  /* Add margin to images in row padding (if used) */
+  .w3-row-padding img {
+    margin-bottom: 12px;
+  }
+  
+  /* Sidebar Styles */
+  .w3-sidebar {
+    width: 120px;
+    background: #222;
+  }
+
+  
+  /* Main content left margin to make space for the sidebar */
+  #main {
+    margin-left: 120px;
+  }
+  
+  /* Responsive: Remove left margin on small screens */
+  @media only screen and (max-width: 600px) {
+    #main {
+      margin-left: 0;
+    }
+  }
+  
+
+  .dialog-box {
+    position: absolute;
+    background: #222;
+    color: white;
+    padding: 15px;
+    border-radius: 8px;
+    width: 200px;
+    display: none;
+    z-index: 1000;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+}
+.dialog-box input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 8px;
+    border: none;
+    border-radius: 4px;
+}
+.dialog-box button {
+    margin-top: 10px;
+    width: 100%;
+}
+
+
+ul {
+    list-style: none;
+  }
+  
+  ul li:before {
+    content: '✅';
+  }
+
+  ol {
+    list-style: none;
+  }
+  
+  ol li:before {
+    content: '❌';
+  }
